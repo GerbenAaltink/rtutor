@@ -65,7 +65,7 @@ def clear_terminal():
 
 
 class Randoms:
-    # select next ten characters and replace ' with "
+    
     input_choices = list("abcdefghijklmnopqrstuvwxyz")
     word_choices = word_list = [
         "apple",
@@ -298,9 +298,6 @@ def main():
             questions_incorrect.append(task)
         time_end = time.time()
         durations.append(time_end - time_start)
-
-
-# tasks.remove(task)
 
 
 if __name__ == "__main__":
